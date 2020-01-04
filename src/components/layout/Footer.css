@@ -1,0 +1,14 @@
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+
+.social-media {
+    margin-left: 10px;
+}

@@ -1,0 +1,35 @@
+#Header{
+    padding: 30px;
+    background-color: black;
+}
+
+.info{
+    color: coral;
+    font-size: smaller;
+    margin-left: 30px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover {
+    outline: none;
+    color: coral;
+    text-decoration: none;
+}
+.link:focus {
+    outline: none;
+    color: coral;
+    text-decoration: none;
+}
+.link:active {
+    outline: none;
+    color: coral;
+    text-decoration: none;
+}
+
+.item{
+    margin-left: 30px;
+}
+
