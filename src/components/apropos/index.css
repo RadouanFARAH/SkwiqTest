@@ -1,0 +1,61 @@
+
+h1{
+    color: rgb(183, 133, 62);
+}
+h3{
+    color: rgb(183, 133, 62);
+}
+
+.btn{
+    background-color:rgb(183, 133, 62) ;
+    color: white;
+}
+ 
+hr{
+    border: 5px solid rgb(183, 133, 62);
+    width: 400px;
+  
+}
+
+#vision-image{
+   
+    display: block;
+    text-align: center;
+}
+
+#vision-section{
+
+    padding: 50px;
+}
+
+#notregroupe-image{
+    display: block;
+    text-align: center;
+}#notregroupe-section{
+    padding: 50px;
+}
+
+#motpresident-image{
+    display: block;
+    text-align: center;
+}
+
+#motpresident-section{
+
+    padding: 50px;
+}
+
+#engagements-section{
+    height: 500px;
+    padding: 50px;  
+    box-shadow: 5px 5px 5px 5px black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    transform: translateY(-50px);
+}
+
+
+
+

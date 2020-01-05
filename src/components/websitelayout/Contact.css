@@ -1,0 +1,45 @@
+#contact-section{
+    background: url('../../Images/background.jpg');
+    background-repeat: no-repeat;
+}
+    
+
+#logo-sec {
+    margin:auto;
+    display: block;
+    text-align: center;
+}
+
+#form-sec {
+    font-family: Montserrat, sans-serif;
+    font-size: larger;
+    padding: 10px;
+    padding-right: 100px;
+    background-color:white;
+    border-left: 2px solid darkslategray;
+}
+
+
+#btn{
+    background-color: rgb(183, 133, 62);
+    margin-right: 20px;
+    height: 60px;
+}
+
+ .inpt{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 10px !important;
+    border-color: black !important;
+    height: 50px !important;
+}
+
+.chkinpt{
+    -ms-transform: scale(2) !important; 
+    -moz-transform: scale(2) !important; 
+    -webkit-transform: scale(2) !important; 
+    -o-transform: scale(2) !important; 
+    transform: scale(2) !important;
+    color: rgb(183, 133, 62) !important;
+    background-color:rgb(183, 133, 62) !important;
+}

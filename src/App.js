@@ -1,21 +1,22 @@
 import React from 'react';
 import {BrowserRouter as Router} from 'react-router-dom'
 import './App.css';
-import Contact from './components/layout/Contact'
-import Header from './components/layout/Header'
-import Section from './components/layout/Section'
-import Footer from './components/layout/Footer'
+import Contact from './components/websitelayout/Contact'
+import Header from './components/websitelayout/Header'
+import Section from './components/websitelayout/Section'
+import Footer from './components/websitelayout/Footer'
+import image from './Images/background.jpg'
 
 function App() {
   return (
+    <div className="App"   style={{backgroundImage: `url(${image})`}}>
     <Router>
-      <div className="App">
           <Header />
           <Section />
-          <Contact />
-          <Footer />
-      </div>
+          <Contact/>
+          <Footer/>
     </Router>
+    </div>
   );
 }
 
