@@ -8,7 +8,7 @@ export class Section extends Component {
     render() {
         return (
         <Switch>
-            <Route path="/project">
+            <Route path="/Project">
                 <Project />
             </Route>
             <Route path="/Apropos">

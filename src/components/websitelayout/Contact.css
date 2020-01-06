@@ -1,6 +1,4 @@
 
-    
-
 #logo-sec {
     margin:auto;
     display: block;
@@ -9,18 +7,19 @@
 
 #form-sec {
     font-family: Montserrat, sans-serif;
-    font-size: larger;
-    padding: 10px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 60px;
     background-color:white;
     border-left: 2px solid darkslategray;
 }
 
-
+#Contact{
+    border-top: 2px solid rgb(183, 133, 62);
+}
 #btn{
     background-color: rgb(183, 133, 62);
     margin-right: 20px;
-    height: 60px;
+    height: 50px;
 }
 
  .inpt{
@@ -28,15 +27,13 @@
     -moz-border-radius: 30px;
     border-radius: 10px !important;
     border-color: black !important;
-    height: 50px !important;
 }
 
 .chkinpt{
-    -ms-transform: scale(2) !important; 
-    -moz-transform: scale(2) !important; 
-    -webkit-transform: scale(2) !important; 
-    -o-transform: scale(2) !important; 
-    transform: scale(2) !important;
-    color: rgb(183, 133, 62) !important;
-    background-color:rgb(183, 133, 62) !important;
+    -ms-transform: scale(1.5) !important; 
+    -moz-transform: scale(1.5) !important; 
+    -webkit-transform: scale(1.5) !important; 
+    -o-transform: scale(1.5) !important; 
+    transform: scale(1.5) !important;
+
 }

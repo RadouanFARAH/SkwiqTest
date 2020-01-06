@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import {Link as Goto} from 'react-scroll'
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import 'bootstrap/dist/css/bootstrap.css';
- 
+
 export class Header extends Component {
+
     render() {
         return (
-  
                 <nav  id="Header" class="navbar navbar-expand-lg">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item info">
@@ -24,6 +25,17 @@ export class Header extends Component {
                         </li>
                         <li class="item">
                             <Link class="link" to="/Apropos">A PROPOS</Link>
+                        </li>
+                        <li class="item">
+                            <Goto 
+                                style={{color:'white',cursor: 'pointer', backgroundColor:'rgb(183, 133, 62)'}}
+                                activeClass="active"
+                                to="Contact"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration= {500}
+                            >CONTACT US</Goto>
                         </li>
                     </ul>
                 </nav>

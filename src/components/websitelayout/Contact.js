@@ -4,14 +4,15 @@ import './Contact.css'
 import image from '../../Images/contact.jpg'
 
 export class Contact extends Component {
+
     render() {
         return (
-            <div style={{backgroundImage:`url(${image})`}}>
+    <div id="Contact" style={{backgroundImage:`url(${image})`}}>
         <div class="row align-items-center" id="contact-section">
             <div class="col" id="logo-sec">
                 <img id="image" src={Logo} alt="" />
             </div>
-            <div class="col-5" id="form-sec" >
+            <div class="col" id="form-sec">
                 <form>
                 <p>Pour être rappelé par un de nos conseillers, veuillez renseigner les champs suivants:</p>
                 <div class="form-check form-check-inline">
@@ -77,7 +78,7 @@ export class Contact extends Component {
             </form>
             </div>
         </div>
-        </div>
+    </div>
         )
     }
 }

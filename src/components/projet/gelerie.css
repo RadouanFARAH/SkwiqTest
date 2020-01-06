@@ -1,0 +1,15 @@
+.gal {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+  }
+  
+  .gal > div {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .gal > div:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 rgba(0,0,0,.5);
+  }
