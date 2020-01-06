@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import Logo from '../../Images/logochaabane.png'
 import './Contact.css'
+import image from '../../Images/contact.jpg'
 
 export class Contact extends Component {
     render() {
         return (
+            <div style={{backgroundImage:`url(${image})`}}>
         <div class="row align-items-center" id="contact-section">
             <div class="col" id="logo-sec">
                 <img id="image" src={Logo} alt="" />
@@ -74,6 +76,7 @@ export class Contact extends Component {
                 <p>Conformément à la loi 09-08, vous disposez d'un droit d'accès, de rectification et d'opposition au traitement de vos données personnelles. Ce traitement a été notifié à la CNDP au titre du récépissé n°...</p>
             </form>
             </div>
+        </div>
         </div>
         )
     }

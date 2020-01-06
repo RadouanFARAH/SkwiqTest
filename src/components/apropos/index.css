@@ -12,9 +12,13 @@ h3{
 }
  
 hr{
-    border: 5px solid rgb(183, 133, 62);
+    border: 4px solid rgb(183, 133, 62);
     width: 400px;
   
+}
+.smallhr{
+    border: 2px solid rgb(183, 133, 62);
+    width: 100px;
 }
 
 #vision-image{
@@ -56,6 +60,13 @@ hr{
     transform: translateY(-50px);
 }
 
+.carousel-caption{
+    bottom: 250px;
+    
+}
 
-
-
+.carousel-item{
+    background-size: cover;
+    height: 100hv;
+    max-height: 600px;
+}

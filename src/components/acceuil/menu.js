@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import first from '../../Images/second.PNG'
-import second from '../../Images/first.PNG'
+import first from '../../Images/silde1.jpg'
+import second from '../../Images/silde2.jpg'
+import logo1 from '../../Images/darlogo2.png'
+import logo2 from '../../Images/darlogo.png'
 
 export class menu extends Component {
     render() {
@@ -8,13 +10,18 @@ export class menu extends Component {
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src={first} alt="First slide"/>
+      <img src={first} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption">
+        <img src={logo1} alt="..."/>
+        <button class="btn">Voir le Projet</button>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src={second} alt="Second slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src={first} alt="Third slide"/>
+      <img src={second} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption">
+        <img src={logo2} alt="..."/>
+        <button class="btn">Voir le Projet</button>
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -26,7 +33,6 @@ export class menu extends Component {
     <span class="sr-only">Next</span>
   </a>
 </div>
-
         )
     }
 }
